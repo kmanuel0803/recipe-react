@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-card {
+   width: 27rem;
+}
+
+.message {
+  margin: 15px 0 0;
+  color: #b3b3b3 !important;
+  font-size: 16px;
+  text-align: center;
+}
+
+#defaultLayout {
+  display: flex;
+  margin-bottom: 20px;
+}
+#defaultLayout .content {
+  flex: 1;
+}
+
+#defaultLayout header {
+  height: 60px;
+  padding: 2rem 3rem;
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#defaultLayout .content p {
+  color: #fff;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions p {
+  margin-right: 10px; /* Add some space between the text and button */
+  margin-bottom: 0; /* Remove default margin */
+}
+
+.dark-head {
+  background-color: #343a40 !important;
+}
+
+.add-recipe {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.recipe-table {
+  margin: 0 20px;
+}
+
+.pagination {
+  text-align: center;
+}
+.pagination span {
+  margin: 0 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-add {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.button-remove {
+  margin-top: 10px;
+  background-color: #dc3545;
+  color: white;
+}
+
+.img-container{
+  margin: 0 auto;
+  padding: 35px 0 35px 0;
+
+}
+
+.img-container img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+
+
+.main-heading{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.recipe-heading p {
+  text-align: left !important;
+}
+
+.ingredients{
+  margin-bottom: 4%;
+}
+
+.main-heading, .ingredients-heading, .instructions-heading{
+  padding-bottom: 10px;
+  color:#214ab4
+  
+}
+
+.ingredients-content li::marker , .instructions-content li::marker{
+  color: var(--nutmeg-color);
+  font-weight: 600;
+}
+
+
+.ingredients-content, .instructions-content{
+  padding-inline: 4% 4%;
+}
+
+.backToList {
+  margin-left: 100px;
+}
